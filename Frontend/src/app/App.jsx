@@ -45,7 +45,7 @@ function App() {
 
     if (username) {
 
-      const provider = new SocketIOProvider("/", "monaco", ydoc, {
+      const provider = new SocketIOProvider("https://real-time-code-editor-tbnw.onrender.com", "monaco", ydoc, {
         autoConnect: true,
       })
 
